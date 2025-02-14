@@ -15,7 +15,7 @@ This is the personal portfolio website of Faiad Mahmud Adil, also known as It'z 
 
 ## Demo
 
-You can view the live demo of the website [here](https://itz-rj-here.github.io/).
+You can view the live demo of the website [here](https://itz-rj-here.is-a.dev/).
 
 ## Features
 
