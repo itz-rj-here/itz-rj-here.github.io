@@ -1,72 +1,113 @@
-# Personal Portfolio of It'z RJ
+# Portfolio V5  
+Hello everyone!  
+Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
 
-This is the personal portfolio website of Faiad Mahmud Adil, also known as It'z RJ. The website showcases my skills, projects, and contact information. It is built using HTML, CSS, and JavaScript.
+**Tech Stack used:**  
+- ReactJS  
+- Tailwind CSS  
+- AOS  
+- Firebase  
+- Framer Motion  
+- Lucide  
+- Material UI  
+- SweetAlert2  
 
-## Table of Contents
+**Website Link:**  
+[https://www.eki.my.id/](https://www.eki.my.id/)  
 
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
 
-## Demo
+---
 
-You can view the live demo of the website [here](https://itz-rj-here.is-a.dev/).
+# Tutorial: Running the Project  
 
-## Features
+Here’s a simple guide to run this project.  
 
-- Responsive design
-- Animated header and sections
-- Image carousel in the portfolio section
-- Contact form with validation
-- Dynamic content loading
+## Prerequisites  
 
-## Technologies Used
+Ensure that you have already installed:  
+- **Node.js**  
 
-- HTML
-- CSS
-- JavaScript
-- [Boxicons](https://boxicons.com/) for icons
+---
 
-## Setup
+## Steps to Run the Project  
 
-To run this project locally, follow these steps:
+1. **Download this project:**  
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/itz-rj-here/itz-rj-here.github.io.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd itz-rj-here.github.io
-    ```
-3. Open `index.html` in your preferred web browser.
+   ```bash  
+   git clone https://github.com/EkiZR/Portofolio_V5.git  
+   ```  
 
-## Usage
+2. **Install all dependencies:**  
 
-- Navigate through different sections using the navigation links.
-- Click on the "Let's Talk" button to jump to the contact section.
-- Use the arrows in the portfolio section to navigate through different projects.
+   ```bash  
+   npm install  
+   ```  
+   Or use:  
 
-## Contributing
+   ```bash  
+   npm install --legacy-peer-deps  
+   ```  
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to create a pull request or open an issue.
+3. **Run the project:**  
 
-## License
+   ```bash  
+   npm run dev  
+   ```  
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+4. **Open in browser:**  
 
-## Contact
+   Access the application through the link displayed in your terminal.  
 
-If you have any questions or want to connect, feel free to reach out:
+---
 
-- Email: [faiadmahmudadil@gmail.com](mailto:faiadmahmudadil@gmail.com)
-- GitHub: [itz-rj-here](https://github.com/itz-rj-here)
-- LinkedIn: [itz-rj](https://www.linkedin.com/in/itz-rj/)
-- Instagram: [certified_valochele](https://www.instagram.com/certified_valochele/)
-- Facebook: [itzrjhere](https://www.facebook.com/itzrjhere)
-- Discord: [It'z RJ](https://discordapp.com/users/722033282631467069)
+## Creating a Production Build  
+
+To create a production-ready build:  
+
+1. Run the build command:  
+
+   ```bash  
+   npm run build  
+   ```  
+
+2. The build files will be saved in the `dist` folder. You can upload this folder to your hosting server.  
+
+---
+
+## Notes  
+
+If you encounter issues while running the project, ensure that:  
+- Node.js is correctly installed.  
+- You’re in the correct project directory.  
+- All dependencies are installed without errors.  
+
+---
+
+## Firebase Configuration  
+
+To configure Firebase for this project, follow these steps:  
+
+1. **Add Firebase to the Project:**  
+   - Go to the [Firebase Console](https://console.firebase.google.com/).  
+   - Create a new project or use an existing one.  
+
+2. **Enable Firestore Database:**  
+   - Create a database.  
+
+3. **Go to Project Settings:**  
+   - Click the settings icon.  
+   - Copy the Firebase configuration.  
+
+4. **Go to Rules:**  
+   - Set the rules to `true`.  
+
+5. **Adjust the Collection Structure:**  
+   - Set up the collections as shown in the following images:  
+
+   ![Collection Structure Example 1](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)  
+   ![Collection Structure Example 2](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)  
+
+6. **Update `firebase.js` and `firebase-comment.js` Files:**  
+   - Replace the `firebaseConfig` content with your Firebase configuration.  
+
